@@ -14,7 +14,7 @@ public class PortalController {
 
     @GetMapping("/portal")
     public String hello(){
-        ResponseEntity<String> entity = restTemplate.getForEntity("http://localhost:9001/hello", String.class);
-        return entity.getBody()            ;
+        ResponseEntity<String> entity = restTemplate.getForEntity("http://springCloud-service-good/hello", String.class);
+        return entity.getBody();
     }
 }
