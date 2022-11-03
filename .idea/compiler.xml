@@ -7,17 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springCloud-service-eureka" />
+        <module name="springCloud-service-feign" />
+        <module name="springCloud-service-dashboard" />
+        <module name="springCloud-service-zuul" />
+        <module name="springCloud-service-config-client" />
+        <module name="springCloud-service-config" />
         <module name="springCloud-service-good" />
         <module name="springCloud-service-portal" />
+        <module name="springCloud-service-good2" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springCloud-service-config" options="-parameters" />
+      <module name="springCloud-service-config-client" options="-parameters" />
+      <module name="springCloud-service-dashboard" options="-parameters" />
       <module name="springCloud-service-eureka" options="-parameters" />
-      <module name="springCloud-service-good" options="" />
+      <module name="springCloud-service-feign" options="-parameters" />
+      <module name="springCloud-service-good" options="-parameters" />
+      <module name="springCloud-service-good2" options="-parameters" />
       <module name="springCloud-service-parent" options="" />
-      <module name="springCloud-service-portal" options="" />
+      <module name="springCloud-service-portal" options="-parameters" />
+      <module name="springCloud-service-zuul" options="-parameters" />
     </option>
   </component>
 </project>

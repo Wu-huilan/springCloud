@@ -9,6 +9,13 @@
         <option value="$PROJECT_DIR$/springCloud-service-portal/pom.xml" />
         <option value="$PROJECT_DIR$/springCloud-service-euraka/pom.xml" />
         <option value="$PROJECT_DIR$/springCloud-service-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud-service-good2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud-service-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud-service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud-service-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud-service-config-client/pom.xml" />
       </list>
     </option>
   </component>
